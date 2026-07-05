@@ -1005,23 +1005,27 @@
 
 # Implants
 
-- type: listing
-  id: UplinkMindcontrolImplanter
-  name: uplink-mindcontrol-implant-name
-  description: uplink-mindcontrol-implant-desc
-  icon: { sprite: /Textures/Objects/Specific/Medical/syndi_implanter.rsi, state: implanter0 }
-  productEntity: MindcontrolImplanter
-  cost:
-    Telecrystal: 25 # Half the budget #bounty someone want it cheaper.
-  categories:
-    - UplinkImplants
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - ContractorUplink
-      - NukeOpsUplink # i guess we dont let nukies have this, they have to mutch TC
-      - ContravendUplink
+# corvax-goob-mindcontrol-removal-start
+#
+#- type: listing
+#  id: UplinkMindcontrolImplanter
+#  name: uplink-mindcontrol-implant-name
+#  description: uplink-mindcontrol-implant-desc
+#  icon: { sprite: /Textures/Objects/Specific/Medical/syndi_implanter.rsi, state: implanter0 }
+#  productEntity: MindcontrolImplanter
+#  cost:
+#    Telecrystal: 25 # Half the budget #bounty someone want it cheaper.
+#  categories:
+#    - UplinkImplants
+#  conditions:
+#  - !type:StoreWhitelistCondition
+#    blacklist:
+#      tags:
+#      - ContractorUplink
+#      - NukeOpsUplink # i guess we dont let nukies have this, they have to mutch TC
+#      - ContravendUplink
+#
+# corvax-goob-mindcontrol-removal-end
 
 - type: listing
   id: UplinkSmokeImplanter

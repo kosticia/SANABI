@@ -1005,7 +1005,7 @@
 
 # Implants
 
-# corvax-goob-mindcontrol-removal-start
+# Corvax-Goob-Mindcontrol-Removal-start
 #
 #- type: listing
 #  id: UplinkMindcontrolImplanter
@@ -1025,7 +1025,7 @@
 #      - NukeOpsUplink # i guess we dont let nukies have this, they have to mutch TC
 #      - ContravendUplink
 #
-# corvax-goob-mindcontrol-removal-end
+# Corvax-Goob-Mindcontrol-Removal-end
 
 - type: listing
   id: UplinkSmokeImplanter
